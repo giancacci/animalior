@@ -1,0 +1,154 @@
+.titulo-1 {
+  color: #4b77be;
+  font-family: "Mountains of Christmas", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-shadow: 1px 1px #28324e; }
+  @media (min-width: 992px) {
+    .titulo-1 {
+      font-size: 32px; } }
+
+.titulo-2 {
+  color: #4b77be;
+  font-family: "Mountains of Christmas", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-shadow: 1px 1px #28324e; }
+  @media (min-width: 992px) {
+    .titulo-2 {
+      font-size: 24px; } }
+
+.texto-1 {
+  color: #28324e;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 12px; }
+  @media (min-width: 992px) {
+    .texto-1 {
+      font-size: 16px; } }
+
+.texto-small {
+  font-size: 12px; }
+  @media (min-width: 992px) {
+    .texto-small {
+      font-size: 14px; } }
+
+.texto-white {
+  color: white; }
+
+.citacao-autor {
+  color: #4b77be;
+  font-family: "Mountains of Christmas", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-shadow: 1px 1px #28324e; }
+  @media (min-width: 992px) {
+    .citacao-autor {
+      font-size: 24px; } }
+
+.citacao-descricao {
+  color: #f16a58;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5; }
+  @media (min-width: 992px) {
+    .citacao-descricao {
+      font-size: 14px; } }
+
+.botao {
+  border-radius: 100px;
+  display: inline-block;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1;
+  margin: 0 auto;
+  padding: 16px 32px;
+  transition: 200ms;
+  text-align: center;
+  text-transform: uppercase; }
+  @media (min-width: 992px) {
+    .botao {
+      font-size: 16px; } }
+  .botao:hover {
+    text-decoration: none; }
+  .botao-1 {
+    background-color: #f16a58;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: white; }
+    .botao-1:hover {
+      background-color: #4b77be;
+      color: white; }
+  .botao-2 {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #f16a58; }
+    .botao-2:hover {
+      background-color: white;
+      color: #4b77be; }
+  .botao-small {
+    font-size: 16px;
+    max-width: 280px;
+    width: 100%; }
+  .botao-block {
+    display: block; }
+
+.cover {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  max-width: 100%; }
+  .cover-author {
+    max-width: 100%; }
+  .cover-magnet {
+    max-width: 100%; }
+  .cover-block {
+    max-width: 100%; }
+
+.carta {
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  height: 100%;
+  padding: 32px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around; }
+
+@media (min-width: 992px) {
+  .spacer {
+    display: block;
+    height: 100%; } }
+@media (min-width: 992px) {
+  .flex {
+    align-items: center;
+    display: flex;
+    justify-content: space-between; } }
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999; }
+
+@media (min-width: 992px) {
+  html, body {
+    height: 100%; } }
+.letreiro {
+  background: linear-gradient(to right, #f16a58 0%, #f4f3b9 100%);
+  height: 100%;
+  padding: 96px 0; }
+  .letreiro .titulo-1 {
+    color: #28324e; }
+
+.letreiro-flex {
+  align-items: center;
+  display: flex;
+  height: 100%; }
+
+/*# sourceMappingURL=ebook.css.map */

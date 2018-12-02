@@ -1,0 +1,252 @@
+/* Bootstrap Override */
+
+.blockquote {
+  border: 1px solid transparent;
+}
+
+.jssocials-share-link {
+  border-radius: 0.25rem;
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+
+.jssocials-share-link:hover {
+  text-decoration: none;
+}
+
+.jssocials-share-link:active {
+  text-decoration: none;
+}
+
+.jssocials-share-link:focus {
+  text-decoration: none;
+}
+
+/* Block Padding */
+
+.fs-padding {
+  padding: 5rem 0;
+}
+
+/* Background Color */
+
+.fs-bg-primary {
+  background: linear-gradient(to right, rgba(241, 106, 88, 1), rgba(244, 243, 185, 1));
+}
+
+.fs-bg-secondary {
+  background: linear-gradient(to right, rgba(90, 165, 172, 1), rgba(231, 235, 227, 1));
+}
+
+.fs-bg-white {
+  background: linear-gradient(
+  to right,
+  rgba(255, 255, 255, 0.95),
+  rgba(255, 255, 255, 0.95)
+  );
+}
+
+.fs-bg-light {
+  background: linear-gradient(
+  to right,
+  rgba(248, 250, 252, 0.95),
+  rgba(248, 250, 252, 0.95)
+  );
+}
+
+.fs-bg-dark {
+  background-color: #203040;
+}
+
+.fs-bg-transparent {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.fs-bg-orange {
+  background-color: #F16A58;
+}
+
+.fs-bg-teal {
+  background-color: #5AA5AC;
+}
+
+.fs-bg-author {
+  background: url('../images/gianfranco.jpg');
+  background-position: center bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.fs-bg-pttrn-01 {
+  background: url('../images/bg-pttrn-01@1x.png');
+}
+
+.fs-bg-pttrn-02 {
+  background: url('../images/bg-pttrn-02@1x.png');
+}
+
+.fs-bg-map {
+  background: url('../images/bg-hero@1x.png');
+  background-position: bottom center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Border */
+
+.fs-bd-transparent {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/* Flex Align Items */
+
+.fs-flex-nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fs-flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.fs-flex-end {
+  display: flex;
+  align-items: flex-end;
+}
+
+/* Font Color */
+
+.fs-fc-primary {
+  color: #4B77BE;
+}
+
+.fs-fc-white {
+  color: #FFFFFF;
+}
+
+.fs-fc-dark {
+  color: #323C46;
+}
+
+/* Font Family */
+
+.fs-ff-primary {
+  font-family: 'Mountains of Christmas', sans-serif;
+  line-height: 1.2;
+}
+
+.fs-ff-secondary {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+}
+
+/* Font Size */
+
+.fs-fz-1 {
+  font-size: 0.75rem;
+}
+
+.fs-fz-2 {
+  font-size: 1rem;
+}
+
+.fs-fz-3 {
+  font-size: 1.25rem;
+}
+
+.fs-fz-4 {
+  font-size: 1.5rem;
+}
+
+.fs-fz-5 {
+  font-size: 1.75rem;
+}
+
+.fs-fz-6 {
+  font-size: 2rem;
+}
+
+.fs-fz-7 {
+  font-size: 2.25rem;
+}
+
+/* CTAs */
+
+.fs-cta-nav {
+  background-color: #FFFFFF;
+  border: 1px solid transparent;
+  border-radius: 1.5rem;
+  color: #F16A58;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 0.75rem 1.5rem;
+  text-transform: uppercase;
+}
+
+.fs-cta-nav:hover {
+  color: #4B77BE;
+  text-decoration: none;
+}
+
+.fs-cta-nav:active {
+  color: #4B77BE;
+}
+
+.fs-cta-nav:focus {
+  color: #4B77BE;
+}
+
+.fs-cta-primary {
+  background-color: #F16A58;
+  border: 1px solid transparent;
+  border-radius: 1.5rem;
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #FFFFFF;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 0.75rem 1.5rem;
+  text-transform: uppercase;
+}
+
+.fs-cta-primary:hover {
+  color: #FFFFFF;
+  -webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+}
+
+.fs-cta-primary:active {
+  color: #FFFFFF;
+}
+
+.fs-cta-primary:focus {
+  color: #FFFFFF;
+}
+
+.fs-cta-white {
+  background: #FFFFFF;
+  border: 1px solid transparent;
+  border-radius: 1.5rem;
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #F16A58;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 0.75rem 1.5rem;
+  text-transform: uppercase;
+}
