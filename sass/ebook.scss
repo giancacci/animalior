@@ -1,0 +1,29 @@
+// animalior.com, ebook.scss
+
+@import "helpers/variables";
+@import "helpers/typography";
+@import "helpers/buttons";
+@import "helpers/images";
+@import "helpers/components";
+
+@media (min-width: 992px) {
+  html, body {
+    height: 100%;
+  }
+}
+
+.letreiro {
+  background: $gradient-1;
+  height: 100%;
+  padding: 96px 0;
+
+  .titulo-1 {
+    color: $grey-dark;
+  }
+}
+
+.letreiro-flex {
+  align-items: center;
+  display: flex;
+  height: 100%;
+}

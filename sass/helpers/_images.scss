@@ -1,0 +1,29 @@
+// images.scss
+
+.cover {
+    // box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    // max-width: 200px;
+    max-width: 100%;
+
+    &-author {
+        // max-width: 240px;
+        max-width: 100%;
+
+    }
+
+    &-magnet {
+        // max-width: 200px;
+        max-width: 100%;
+
+        @media (min-width: 992px) {
+            // max-width: 280px;
+        }
+    }
+
+    &-block {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,44 @@
+// variables.scss
+
+// colors
+
+$laranja: #f16a58;
+$amarelo: #f4f3b9;
+
+$ciano: #5aa5ac;
+$cinza: #e7ebe3;
+
+$azul: #4b77be;
+$grafite: #404040;
+
+// $light: #f0f8ff;
+$grey-light: #dfefff;
+$grey-dark: #28324e;
+
+// gradients
+
+$gradient-1: linear-gradient(to right, $laranja 0%, $amarelo 100%);
+$gradient-2: linear-gradient(to right, $ciano 0%, $cinza 100%);
+$gradient-3: linear-gradient(to right, $grey-light 0%, white 100%);
+
+// fonts
+
+$thin: 100;
+$extra-light: 200;
+$light: 300;
+$regular: 400;
+$medium: 500;
+$semi-bold: 600;
+$bold: 700;
+$extra-bold: 800;
+$black: 900;
+
+$sans: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+
+$mountains: 'Mountains of Christmas', $sans;
+
+$source-sans: 'Source Sans Pro', $sans;
+$work-sans: 'Work Sans', $sans;
+
+$heading: $mountains;
+$body: $source-sans;

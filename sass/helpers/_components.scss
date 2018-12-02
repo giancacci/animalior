@@ -1,0 +1,36 @@
+// components.scss
+
+.carta {
+    background: white;
+    border-radius: 4px;
+    // box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 100%;
+    padding: 32px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+@media (min-width: 992px) {
+    .spacer {
+        display: block;
+        height: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .flex {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}

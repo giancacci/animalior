@@ -1,0 +1,63 @@
+// buttons.scss
+
+.botao {
+    border-radius: 100px;
+    display: inline-block;
+    font-family: $body;
+    font-size: 14px;
+    font-weight: $extra-bold;
+    line-height: 1;
+    margin: 0 auto;
+    padding: 16px 32px;
+    transition: 200ms;
+    text-align: center;
+    text-transform: uppercase;
+
+    @media (min-width: 992px) {
+        font-size: 16px;
+    }
+
+    &:hover {
+        text-decoration: none;
+    }
+
+    &-1 {
+        background-color: $laranja;
+        // border: 1px solid $grey-dark;
+        // box-shadow: 3px 3px $grey-dark;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        color: white;
+
+        &:hover {
+            background-color: $azul;
+            color: white;
+        }
+    }
+
+    &-2 {
+        background-color: white;
+        // border: 1px solid $grey-dark;
+        // box-shadow: 3px 3px $grey-dark;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        color: $laranja;
+
+        &:hover {
+            background-color: white;
+            color: $azul;
+        }
+    }
+
+    &-small {
+        font-size: 16px;
+        max-width: 280px;
+        width: 100%;
+
+        @media (min-width: 992px) {
+
+        }
+    }
+
+    &-block {
+        display: block;
+    }
+}
